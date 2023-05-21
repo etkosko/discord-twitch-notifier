@@ -9,8 +9,8 @@ export default (client) => {
     // client.once("ready", async () => {
     console.log(`Watching api.twitch.tv streams ✅`);
 
-    const clientId = '239n3w2ayc7mw35f17zaqdt1mipkxa';
-    const accessToken = 'axu95u8zdtdqesddloheom2fmzjcez';
+    const clientId = 'twitchclientid';
+    const accessToken = 'twitchaccestoken';
     const db = mongoose.connection;
     const collection = db.collection('guilds');
 
