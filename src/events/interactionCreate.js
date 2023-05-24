@@ -13,18 +13,7 @@ export default (client) => {
         try {
             command.data.execute(client, interaction);
         } catch (e) {
-            interaction.reply({
-                embeds: [
-                    client.embed(
-                        `<:cancel:1082428906373656646> ${t(
-                            "interactionCreate.cooldown",
-                            { ns: "common", lng: interaction.locale }
-                        )}`,
-                        "RED"
-                    ),
-                ],
-                ephemeral: true,
-            });
+            interaction.reply("something went wrong");
             console.log(e);
         }
     });
