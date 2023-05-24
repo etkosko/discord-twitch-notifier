@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "github",
+  "version": "1.0.0",
+  "description": "Github bot by Etka",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Etk",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3",
+    "i18next": "^22.4.15",
+    "i18next-fs-backend": "^2.1.1",
+    "mongoose": "^7.1.1",
+    "node-fetch": "^3.3.1"
+  }
+}
